@@ -1,0 +1,84 @@
+/*Rules*/
+*{
+		box-sizing: border-box;
+	}
+			#div1{
+				height:620px;
+				border:0px; 
+				flex-direction:row; 
+				display:flex;
+				flex-wrap: wrap;
+				
+				background-image:linear-gradient(to top, rgba(255,0,0,0.3), rgba(0,255,0,0.3)),
+				url('../images/banner.jpg');
+				background-repeat:no-repeat;
+				background-size:cover;
+				background-position:center;
+				background-attachment:fixed;
+			}
+			body{
+				color: #fff;
+				font-family:myfont, calibri, sans-serif;
+			}
+		#div2{
+				height:40px;
+				border:0px;
+				width:30%;
+				font-size:22px;
+				
+			}
+			img{
+			height:20px;
+			width:20px;
+			margin-left:150px;
+			}
+		#div4{
+				height:40px;
+				border:0px;
+				width:70%;
+			 	padding-right:90px;
+				}
+		.heading1{
+
+				border:0px;
+				width:65%;
+				padding:150px;
+			}
+		.div7{
+			padding-left:60px;
+			border:0px;
+			width:30%;
+			background-color:white;
+			color:#000;
+			height:430px;
+			align-self:center;
+			}
+		#list li a{
+			text-decoration:none;
+		}
+		#list li{
+				display:inline-block;
+				padding:4px;
+				border-radius:30%;
+		
+		}
+		#list{
+		margin-left:300px;
+		}
+		.div5{
+			font-size:30px;
+		}
+		.div6{
+		border:2px solid white;
+		padding:15px;
+		font-size:11px;
+		width:15%;
+		}
+		h1{
+		font-size:32px;
+		}
+		div{
+			border:1px solid red;
+			
+		}
+	

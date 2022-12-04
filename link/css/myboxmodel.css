@@ -1,0 +1,51 @@
+/*Box Model CSS Demo*/
+*{
+	box-sizing: border-box;
+	background-color:cadetblue;
+}
+.parent{
+	border:1px dashed #000; 
+	flex-direction:row; 
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	
+}
+.boxborder{
+	border: 1px solid #000;
+	height: 100px;
+}
+.featured{
+	width:40%;
+	padding:10px 40px 30px 50px;
+}
+.advert{
+	width:60%;
+}
+.banner{
+	/*width:100%;
+	margin-top:30px;
+	padding-top:20px;
+	padding-right:30px;
+	padding-bottom:40px;
+	padding-left:50px;*/
+	
+	border:2px solid #000;
+	padding:20px 30px 40px 50px;
+	min-height:100px;
+	margin:30px 30px;
+}
+#boxA{
+	border:5px solid #000;
+	/*width:200px;
+	height:250px;*/
+	padding:20px;
+	
+}#boxB{
+	border:5px solid #000;
+	width:200px;
+	height:250px;
+	padding:20px;
+	margin-top:10px;
+	box-sizing:border-box
+}

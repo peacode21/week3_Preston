@@ -1,0 +1,40 @@
+/*border properties demo*/
+
+/*custom font definition */
+@font-face{
+	font-family:myfont;
+	src: url('../fonts/cabin/cabin-medium-webfont.woff2');
+}
+body{
+	background-color: rgb(225,64,101);
+	color:#fff
+}
+
+.heading1{
+	border-width:10px;
+	border-style:solid;
+	border-color:#aaa;
+	border-top-style:dotted;
+	border-bottom-style:double;
+	border-left-color:black;
+	border-left-width:20px;
+}
+.para1{
+	border:10px solid #aaa;
+	font-family:myfont, calibri, sans-serif;
+	
+}
+.divA{
+	border:2px solid #fff;
+	width:300px;
+	height:300px;
+	border-radius:50px;
+}
+.divB{
+	border:2px solid #bbb;
+	width:300px;
+	height:300px;
+	margin-top:10px;
+	border-radius:50%;
+}
+

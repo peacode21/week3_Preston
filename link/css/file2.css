@@ -1,0 +1,14 @@
+/*
+Date: 22/Nov/2022
+Program: External CSS Demo
+Author: Preston Sodipo
+*/
+
+body{
+	background-color: rgb(255,255,255);
+}
+p{font-style:italic;
+	font-size: 24px;
+	color:#000099;
+}
+/* Custom fonts defination */

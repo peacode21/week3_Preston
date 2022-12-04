@@ -1,0 +1,25 @@
+/*
+Date: 22/Nov/2022
+Program: External CSS Demo
+Author: Preston Sodipo
+*/
+
+/*Custom fonts Defination*/
+@font-face{
+	font-family: whatever;
+	src: url(../fonts/cabin/cabin-regular-webfont.woff2);
+	
+	
+}
+
+
+body{
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+}
+
+a{
+	color: rgb(255,242,0);
+	
+}
+p{}

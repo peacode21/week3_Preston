@@ -1,0 +1,23 @@
+/*border properties work*/
+
+body{
+	background-color: rgb(255,255,255);
+	color:#fff
+}
+.div{
+	border:10px solid #ccc;
+	width:60px;
+	height:60px;
+	border-radius:50px;
+	border-style:solid;
+	margin-bottom:10px;
+}
+#red{
+	background-color: rgb(255,0,0);
+}
+#yellow{
+	background-color: #fff123;
+}
+#green{
+	background-color: #00ff00
+}
